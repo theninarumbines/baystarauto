@@ -1,0 +1,109 @@
+/*
+ * jQuery FlexSlider v1.8
+ * http://www.woothemes.com/flexslider/
+ *
+ * Copyright 2012 WooThemes
+ * Free to use under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ */
+
+.slides,
+.flex-control-nav {margin: 0 0 -4px 0 ; padding: 0; list-style: none;}
+
+/* FlexSlider Necessary Styles
+*********************************/
+
+.flexslider {
+	width: 100%;
+	min-height: 400px;
+	height: 100%;
+	padding: 0;
+}
+
+	.flexslider .slides > li {
+		display: none;
+		-webkit-backface-visibility: hidden;
+	}
+
+		.flexslider .slides img { 	
+			width: 100%;
+		
+		}
+
+.slides:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+* html .slides {height: 1%;}
+
+.no-js .slides > li:first-child {display: block;}
+
+
+/* FlexSlider Default Theme
+*********************************/
+
+.flexslider {
+	position: relative;
+	margin-right:-20px;
+	zoom: 1;
+/*	background: url(images/loading.gif) no-repeat scroll center center;*/
+}
+
+.flexslider .slides {zoom: 1;}
+
+	.flexslider .slides > li {overflow: hidden;}
+	
+		.flexslider .caption {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+			background-repeat: repeat;
+			background-color: rgba(255,255,255,.8);
+		}
+	
+			.flexslider .caption-entry {padding: 25px 10px 0 20px;}
+			
+
+/* Control Nav */
+
+.flex-control {
+	position: absolute;
+	bottom: 20px;
+	right: 25px;
+}
+
+	.flex-control-nav {
+		float: right;
+		margin: 0;
+		list-style: none;
+	}
+
+		.flex-control-nav li {
+			margin: 0 0 0 6px;
+			float: left;
+			display: block; 
+			zoom: 1; 
+		}
+
+		.flex-control-nav li:first-child {margin: 0;}
+
+			.flex-control-nav li a {
+				display: block; 
+				width: 14px;
+				height: 14px;
+				background-image: url(images/bullets.png);
+				background-repeat: no-repeat;
+				text-indent: -9999em;
+				cursor: pointer;
+			}
+
+			.flex-control-nav li a.active {
+				background-position: 0 bottom;
+				cursor: default;
+			}

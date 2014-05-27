@@ -1,0 +1,604 @@
+/* ---------------------------------------------------------------------- */
+/*	Media Queries
+/* ---------------------------------------------------------------------- */
+
+@media only screen and (min-width: 767px) {
+	
+	.item .list-image li:nth-child(3n) {margin-right: 0;}
+	
+}
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {
+	
+
+		.input-block label {display: block;}
+		
+	/* ---------------------------------------------------------------------- */
+	/*	Content
+	/* ---------------------------------------------------------------------- */
+		
+		.detailed-foot .alignright {float: none; margin-top: 15px;}
+	
+		/* -------------------------------------------------- */
+		/*	Recent
+		/* -------------------------------------------------- */
+
+		.item-list .button,
+		.item-list .compare { 
+				position: static;
+				margin-top: 5px;
+			}
+			
+	/* ---------------------------------------------------------------------- */
+	/*	Blog
+	/* ---------------------------------------------------------------------- */
+
+	.entry-body {display: block;}
+
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+		
+	/* ---------------------------------------------------------------------- */
+	/*	Layout
+	/* ---------------------------------------------------------------------- */
+
+	.wrap {width: 748px;}
+
+	/* ---------------------------------------------------------------------- */
+	/*	Home
+	/* ---------------------------------------------------------------------- */
+	
+			/* -------------------------------------------------- */
+			/*	Flexslider
+			/* -------------------------------------------------- */
+
+			.flexslider {width: 480px;}
+
+			/* -------------------------------------------------- */
+			/*	Search Panel
+			/* -------------------------------------------------- */
+		
+			.top-panel .widget_custom_search {width: 228px;}
+			
+				.form-panel fieldset {margin-right: 12px;}
+				
+					.top-panel .form-panel fieldset select {width: 108px;}
+				
+			#sidebar .widget_custom_search fieldset {margin-right: 0; width: 100%;}
+			#sidebar .widget_custom_search .form-panel select {width: 100%;}
+			
+			.top-panel .widget_custom_search {padding: 10px 0 0 0;}
+
+				.top-panel .widget_custom_search h3 {display: none;}
+
+			.top-panel .form-panel fieldset {margin-bottom: 3px;}
+
+				.top-panel .form-panel fieldset > label {margin-bottom: 3px;}
+				
+			/* -------------------------------------------------- */
+			/*	Sales Reps
+			/* -------------------------------------------------- */
+
+			.sales-reps .item {width: 229px;}
+				
+			/* -------------------------------------------------- */
+			/*	Pricing Table
+			/* -------------------------------------------------- */
+			
+			.pricing-table {
+				position: relative;
+				height: 100%;
+				margin: 0 -20px 40px 0;
+			}
+
+			.pricing-table.col2 .col {width: 352px;}
+			.pricing-table.col3 .col {width: 227px;}
+			.pricing-table.col4 .col {width: 227px;}
+
+			/* -------------------------------------------------- */
+			/*	404 Error
+			/* -------------------------------------------------- */
+
+			.error404 {width: 72%;}	
+			
+		/* -------------------------------------------------- */
+		/*	Table Compare Listings
+		/* -------------------------------------------------- */		
+			
+		.compare-table .col.features {width: 180px;}
+
+		.compare-table .col {width: 272px;}
+
+	/* ---------------------------------------------------------------------- */
+	/*	Content
+	/* ---------------------------------------------------------------------- */
+
+		/* -------------------------------------------------- */
+		/*	Recent 
+		/* -------------------------------------------------- */
+
+		.item-grid article {width: 148px;}
+		
+		/* -------------------------------------------------- */
+		/*	One Item
+		/* -------------------------------------------------- */
+
+		.item .gallery {width: 390px;}
+		
+		div.slideshow a.advance-link {width: 390px;}
+
+		div.slideshow a.advance-link img {width: 390px !important;}
+		
+		div.slideshow-container {height: 260px !important;}	
+
+			.item .list-image li {width: 122px;}
+			
+		/* ---------------------------------------- */
+		/*	Item List
+		/* ---------------------------------------- */	
+
+			.item-list .detailed {
+				float: left;
+				padding-right: 0;
+				margin-bottom: 0;
+				width: 278px;
+			}
+			
+			/* Form Entry Columns */
+			
+			.container .form-entry .eight.columns {width: 333px;}
+			
+	/* -------------------------------------------------- */
+	/* Cart Holder
+	/* -------------------------------------------------- */
+		
+		.cart-content.step-1 .five.columns {width: 215px;}
+		
+		.cart-content.step-1 .three.columns {width: 97px;}
+		
+	/* -------------------------------------------------- */
+	/*	Related
+	/* -------------------------------------------------- */
+	
+		.related li {
+			width: 234px;
+		}
+
+		.related li:nth-child(2n) {margin-right: 0;}
+		.related li:nth-child(3n) {margin-right: 20px;}
+		
+	/* ---------------------------------------------------------------------- */
+	/*	Sidebar
+	/* ---------------------------------------------------------------------- */
+
+		/* -------------------------------------------------- */
+		/*	Widgets
+		/* -------------------------------------------------- */
+		
+			/* -------------------------------------------------- */
+			/*	Loan Calculator
+			/* -------------------------------------------------- */
+
+			.widget_loan_calculator .entry-loan {padding: 10px 5px;}
+			
+			.copyright {margin: 0 10px 0;}
+			
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+	
+	/* -------------------------------------------------- */
+	/*	General Classes
+	/* -------------------------------------------------- */
+
+	blockquote.quote-left,
+	blockquote.quote-right {width: 100%;}
+	
+	/* -------------------------------------------------- */
+	/*	Forms
+	/* -------------------------------------------------- */
+
+		.contact-form input,
+		.contact-form textarea,
+		.comments-form input,
+		.comments-form textarea {
+			width: 100%;
+			-webkit-box-sizing: border-box;
+			   -moz-box-sizing: border-box;
+					box-sizing: border-box;
+		}
+		
+		.contact-form textarea,
+		.comments-form textarea {
+			height: 150px;
+			max-width: 100%;
+			max-height: 150px;
+			min-width: 100%;
+			min-height: 100px;
+		}
+
+	/* ---------------------------------------------------------------------- */
+	/*	Layout
+	/* ---------------------------------------------------------------------- */
+
+	.wrap {width: 280px;}
+	
+	/* ---------------------------------------------------------------------- */
+	/*	Header
+	/* ---------------------------------------------------------------------- */
+
+		#logo {
+			float: none;
+			margin: 40px 0 30px 0;
+			text-align: center;
+		}
+		
+		/* -------------------------------------------------- */
+		/*	 Main Navigation
+		/* -------------------------------------------------- */
+
+		.navigation > ul {display: none;}
+
+		.navigation .nav-responsive {display: inline-block;}
+		
+	/* ---------------------------------------------------------------------- */
+	/*	Home
+	/* ---------------------------------------------------------------------- */
+	
+		/* -------------------------------------------------- */
+		/*	Top Panel
+		/* -------------------------------------------------- */
+		
+		.top-panel {padding-right: 0;}
+		
+			.top-panel .media-hidden {display: none;}
+		
+		/* -------------------------------------------------- */
+		/*	Flexslider
+		/* -------------------------------------------------- */
+
+		.flexslider {
+			float: none; 
+			margin-bottom: 25px;
+			width: 100%;
+		}
+		
+		/* -------------------------------------------------- */
+		/*	Search Panel
+		/* -------------------------------------------------- */
+
+		.top-panel .widget_custom_search {
+			float: none;
+			margin: 0 auto;
+			width: 92%;
+		}
+
+		.widget_custom_search fieldset {margin-right: 0; width: 100%;}
+		.widget_custom_search .form-panel select {width: 100%;}
+		
+		/* -------------------------------------------------- */
+		/*	Sales Reps
+		/* -------------------------------------------------- */
+		
+		.sales-reps .row {margin-right: 0;}
+
+			.sales-reps .item {width: 100%;}	
+			
+		/* -------------------------------------------------- */
+		/*	Pricing Table
+		/* -------------------------------------------------- */
+
+		.pricing-table {margin: 0;}
+
+		.pricing-table.col2 .col,
+		.pricing-table.col3 .col,
+		.pricing-table.col4 .col {margin-right: 0; width: 100%;}
+			
+		/* -------------------------------------------------- */
+		/*	404 Error
+		/* -------------------------------------------------- */
+
+		.error404 {
+			margin: 20px auto;
+			width: 85%;
+		}
+
+			.error404 .e404 > p {display: none;}
+
+			.error404 h1 {font-size: 40px;}	
+			.error404 .title-error {margin-bottom: 10px; font-size: 15px;}	
+			
+		/* -------------------------------------------------- */
+		/*	Table Compare Listings
+		/* -------------------------------------------------- */		
+			
+		.compare-table {text-align: center;}
+
+			.compare-table .col {
+				margin-bottom: 30px;
+				width: 100%;
+				border-left-width: 1px;
+				-webkit-box-sizing: border-box;
+				   -moz-box-sizing: border-box;
+						box-sizing: border-box;
+			}
+			
+			.compare-table .col.features,
+			.account-wrapper,
+			.control_panel {display: none;}
+
+				.compare-table li:before {
+					display: block;
+					color: #7B7B7B;
+					content: attr(data-feature) ":";
+					font-weight: 700;
+					text-align: center;
+				}
+		
+	/* ---------------------------------------------------------------------- */
+	/*	Content
+	/* ---------------------------------------------------------------------- */
+
+		/* -------------------------------------------------- */
+		/*	Recent 
+		/* -------------------------------------------------- */
+
+		.item-grid article {
+			float: none;
+			width: 100%;
+		}
+		
+			.item-grid article img { width: 100%; }
+
+		/* ---------------------------------------- */
+		/*	Item List
+		/* ---------------------------------------- */	
+
+			.item-list .detailed {
+				float: left;
+				padding-right: 0;
+				margin-bottom: 0;
+				width: 207px;
+			}
+	
+	/* -------------------------------------------------- */
+	/* Cart Holder
+	/* -------------------------------------------------- */
+
+		/* Form Entry Columns */
+
+		.container .form-entry .eight.columns {width: 100%;}	
+		
+		.cart-content.step-1 .five.columns,
+		.cart-content.step-2 .five.columns {width: 100%;}
+		
+		.cart-content.step-1 .three.columns,
+		.cart-content.step-2 .three.columns {width: 100%;}
+		
+	/* ---------------------------------------------------------------------- */
+	/*	Blog
+	/* ---------------------------------------------------------------------- */
+
+		/* -------------------------------------------------- */
+		/*	Related
+		/* -------------------------------------------------- */
+
+			.related li {
+				width: 198px;
+			}
+
+			.related li:nth-child(2n) {margin-right: 0;}
+			.related li:nth-child(3n) {margin-right: 20px;}		
+			
+	/* ---------------------------------------------------------------------- */
+	/*	Sidebar
+	/* ---------------------------------------------------------------------- */
+
+		.sbr #sidebar {float: right;}
+		.sbl #sidebar {float: left;}
+
+		/* -------------------------------------------------- */
+		/*	Widgets
+		/* -------------------------------------------------- */
+
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+	/* ---------------------------------------------------------------------- */
+	/*	Layout
+	/* ---------------------------------------------------------------------- */
+
+	.wrap {width: 460px;}
+	
+	/* ---------------------------------------------------------------------- */
+	/*	Home
+	/* ---------------------------------------------------------------------- */
+
+			/* -------------------------------------------------- */
+			/*	Search Panel
+			/* -------------------------------------------------- */
+
+			.top-panel .widget_custom_search {
+				float: none;
+				margin: 0 auto;
+			}
+			
+			.top-panel fieldset:nth-child(2n-1) {margin-right: 10px;}
+			
+			
+			#sidebar .widget_custom_search,
+			#sidebar .widget_custom_search select {width: 100%;}
+			
+			/* -------------------------------------------------- */
+			/*	404 Error
+			/* -------------------------------------------------- */
+
+			.error404 {
+				margin: 30px auto;
+				width: 85%;
+			}
+			
+				.error404 .e404 { margin-top: 5px;}
+				
+					.error404 .e404 > p {display: block;}
+			
+					.error404 h1 {font-size: 55px;}	
+					.error404 .title-error {margin: 0; font-size: 20px;}
+	
+	/* ---------------------------------------------------------------------- */
+	/*	Content
+	/* ---------------------------------------------------------------------- */
+
+		/* -------------------------------------------------- */
+		/*	Recent 
+		/* -------------------------------------------------- */
+
+		.item-grid article {
+			float: left;
+			width: 200px;
+		}
+
+		.item-grid article:nth-child(2n) {margin-right: 0 !important;}
+		.item-grid article:nth-child(3n) {margin-right: 20px;}
+		
+	/* ---------------------------------------------------------------------- */
+	/*	Blog
+	/* ---------------------------------------------------------------------- */
+				
+		/* -------------------------------------------------- */
+		/*	One Item
+		/* -------------------------------------------------- */
+
+		.item .gallery {
+			float: none;
+			margin-right: 0;
+			width: 100%;
+		}
+		
+			#gallery div.slideshow-container {height: 280px;}
+
+				.item .list-image li {width: 132px;}
+				
+				.item .list-image li:nth-child(3n) {margin-right: 0;}
+				
+					.item .gallery .advance-link img {width: 420px;}
+					
+	/* ---------------------------------------------------------------------- */
+	/*	Widgets
+	/* ---------------------------------------------------------------------- */
+	
+		/* -------------------------------------------------- */
+		/*	Content Tabs
+		/* -------------------------------------------------- */
+		
+			ul.tabs-nav li a {padding: 6px 7px;}
+			
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+	
+		/* -------------------------------------------------- */
+		/*	General Classes
+		/* -------------------------------------------------- */
+		
+		.single-image {
+			float: none;
+			margin: 0 0 20px 0 !important;
+			text-align: center;
+		}
+	
+			.single-image img {display: inline-block;}
+	
+		/* -------------------------------------------------- */
+		/*	One Item
+		/* -------------------------------------------------- */
+
+		.item .gallery {
+			float: none;
+			margin-right: 0;
+			width: 100%;
+		}
+		
+			#gallery div.slideshow-container {height: 205px;}
+
+				.item .list-image li {width: 124px;}
+				
+				.item .list-image li:nth-child(2n) {margin-right: 0;}
+
+					.item .gallery .advance-link img {width: 260px;}	
+					
+					div.slideshow a.advance-link {
+						width: 260px !important;
+					}
+					
+		/* ---------------------------------------- */
+		/*	Item List
+		/* ---------------------------------------- */	
+			
+		.item-list .picture {
+			float: none;
+			width: 100%;
+		}
+		
+			.item-list .detailed {
+				float: none;
+				padding-right: 0;
+				margin-bottom: 0;
+				width: 100%;
+			}	
+		
+		/* ---------------------------------------- */
+		/*	Sort
+		/* ---------------------------------------- */
+		
+		.sort select {
+			margin: 5px 0 0 0;
+			width: 100%;
+		}
+		
+		/* -------------------------------------------------- */
+		/*	Related
+		/* -------------------------------------------------- */
+
+			.related li {
+				width: 100%;
+				margin-right: 0;
+			}
+			
+	/* -------------------------------------------------- */
+	/* Cart Holder
+	/* -------------------------------------------------- */
+	
+			ul.cart-items li {width: 100%;}		
+			
+			/* Upload Holder */
+			
+			.upload-holder input[type="text"] {width: 140px;}
+					
+	/* ---------------------------------------------------------------------- */
+	/*	Widgets
+	/* ---------------------------------------------------------------------- */
+	
+		/* -------------------------------------------------- */
+		/*	Content Tabs
+		/* -------------------------------------------------- */
+		
+		.tabs-nav li {margin-bottom: 2px;}
+		
+			ul.tabs-nav li a {
+				-webkit-border-radius: 3px;
+				   -moz-border-radius: 3px;
+						border-radius: 3px;
+				padding: 6px 7px;
+			}	
+			
+			ul.tabs-nav li.active a {border-bottom-color: #dddcdc;}
+
+}
