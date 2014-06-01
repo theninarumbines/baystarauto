@@ -43,12 +43,12 @@ table {
 dt,dd {display: inline-block;}
 
 a {
-    margin:0;
-    padding:0;
-    font-size:100%;
+  margin:0;
+  padding:0;
+  font-size:100%;
 	outline: none;
 	text-decoration:none;
-    background:transparent;
+  background:transparent;
 	vertical-align:baseline;
 }
 
@@ -65,7 +65,6 @@ a, a > * {
 			transition: background-color .2s ease, border .2s ease, color .2s ease, opacity .2s ease-in-out;
 }
 
-a:hover, a > *:hover {color: #FE5214;}
 
 ul li {
 	list-style: none;
@@ -311,17 +310,18 @@ h1, h2, h3, h4, h5, h6 {
 	
 	button.see {
 		margin: 30px 0 30px 0;
-		padding:15px 25px;
+		padding:15px 45px;
 		font-size: 16px;
 		font-weight: 400;
 		font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
 		color:#fff;
 		text-transform: uppercase;
-		background-color: #345D8E;
-		-webkit-border-radius:5px;
-			-moz-border-radius:5px;
-				-o-border-radius:5px;
-					border-radius:5px;
+		background-color: #cb0a0a;
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+		-o-border-radius: 3px;
+		-webkit-border-radius: 3px;
+
 	}
 	button.see a{
 			color: #fff;
@@ -372,8 +372,8 @@ h1, h2, h3, h4, h5, h6 {
 		display: block;
 		text-align: center;
 	}
-	.features .one-third {
-		height: 340px;
+	.features .one-third{
+		height: 270px;
 	}
 
 	.features h2 {
@@ -384,7 +384,7 @@ h1, h2, h3, h4, h5, h6 {
 
 	.features h4 {
 		padding-top: 15px;
-		color: #333;
+		color: #171730;
 	}
 
 	.features p {
@@ -650,18 +650,18 @@ img#logo {
 			padding: 15px 0;
 			color: #fff;
 		}
-
-	.section-headline h3 {
-		padding:20px 0;
-		color: #2d2d2d;
-	}
+	.section-headline {
+		margin-bottom: 30px;
+	}	
 
 	.section-headline p {
 		text-align: center;
 	}
 
-	#services-box {
-		margin: 60px 0;
+	#services-box,
+	#coupons-box {
+		margin: 30px auto;
+		display: inline-block;
 	}
 
 	.section-content p{
@@ -672,35 +672,41 @@ img#logo {
 	display: block;
 	margin-bottom: 30px;
 }
-#services-content h2,
-#about-content h2{
+.section-content h2 {
 	text-align: center;
 	color: #333;
 }
 
-#services-content .four {
-	height: 250px;
-	text-align: center;
+#about-content h2,
+#contact-content h2 {
+	text-align: left;
 }
 
-#services-content .four h6 {
+#contact-content .section-headline p,
+#about-content .section-headline p{
+	text-align: left;
+}
+
+#services-content .one-third {
+	height: 250px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+#services-content .one-third h5 {
 	color: #333;
 	padding: 15px 0 10px 0;
 }
 
-#services-content .info-text {
-	margin: 60px auto;
-}
 
-#services-content .info-text h3 {
-	margin-bottom: 80px;
-	color: #345d8e;
+#services-content .info-text h2 {
+	color: #cb0a0a;
 }
 
 .info-text {
 	display: block;
 	width: 60%;
-	margin:0 auto;
+	margin:0 auto 50px auto;
 	text-align: center;
 }
 
@@ -773,6 +779,11 @@ img#logo {
 	#about-content .two-thirds {
 		margin-left: 0;
 	}
+
+.contact-content .contact-form {
+	margin: 50px 0;
+	display: block;
+}
 		/* -------------------------------------------------- */
 		/*	404 Page
 		/* -------------------------------------------------- */
@@ -810,6 +821,70 @@ img#logo {
 					font-family: 'Open Sans', sans-serif;
 				}	
 				
+/* ---------------------------------------------------------------------- */
+/*	Deals 
+/* ---------------------------------------------------------------------- */
+
+.coupon-block {
+	margin: 0 10px 25px 0;
+}
+
+.coupon-block a.coupon-link:hover {
+	opacity: .7;
+}
+.coupon {
+/*	background-color: #eee;*/
+	border: 2px solid #ddd;
+}
+
+.hover {
+	background-color: #000;
+}
+
+.coupon:hover {
+	opacity: .8;
+}
+	.price,
+	.download {
+		background-color: rgba(0, 93, 145, 1);
+		color:#fff;
+		padding: 10px;
+		text-align: center;
+	}
+
+	.download {
+		display: none;
+	}
+
+	.validity {
+		text-align: right;
+		font-style: italic;
+		padding-top: 5px;
+	}
+
+	.price .add-text {
+		font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+	}
+
+	.description {
+		padding:15px;
+	}
+	.description h4 {
+		color: #ca1c23;
+		padding-bottom: 3px
+	}
+
+	.description p {
+		font-size: 12px;
+	}
+	.deal-icon {
+		rowspan: 2;
+		vertical-align: middle;
+		width:150px;
+		text-align:center;
+		background-color: #efefef;
+
+	}
 
 /* ---------------------------------------------------------------------- */
 /*	Contact Us
@@ -985,7 +1060,7 @@ img#logo {
 		/*	Gmap
 		/* ---------------------------------------- */
 		#map {
-			height:400px;
+			height:289px;
 		}
 		#gMap {
 			margin-top: 20px;

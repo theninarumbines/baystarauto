@@ -60,11 +60,14 @@
 	
 		.flexslider .caption {
 			position: absolute;
-			bottom: 0;
-			left: 0;
-			width: 100%;
+			width: 70%;
+			left:15%;
+			text-align: center;
+			top:30%;
 			background-repeat: repeat;
-			background-color: rgba(255,255,255,.8);
+			background-color: rgba(0,0,0,.4);
+			color: #fff;
+			padding: 10px 0 30px 0;
 		}
 	
 			.flexslider .caption-entry {padding: 25px 10px 0 20px;}
